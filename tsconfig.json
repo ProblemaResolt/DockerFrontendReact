@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "docs/",
+    "outDir": "dist/",
     "noImplicitAny": true,
     "module": "commonjs",
-    "target": "es2015",
+    "target": "es2017",
     "jsx": "react"
   },
   "include": [
