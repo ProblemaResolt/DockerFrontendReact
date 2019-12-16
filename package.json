@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Max Bause",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.4.8",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-social-media-follow": "^1.1.1",
+    "regenerator-runtime": "^0.13.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "webpack:prod": "webpack --config webpack.prod.js",
+    "webpack:dev": "webpack-dev-server --hot --inline --config webpack.dev.js"
+  }
+}
