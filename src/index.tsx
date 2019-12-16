@@ -9,8 +9,8 @@ import "./styles/global.scss";
 
 ReactDOM.render(
   <article>
-    <Header name="test" />
-    <Contents/>
+    <Header name="boilerplate" />
+    <Contents content="contentsProps"/>
     <Footer year={new Date().getFullYear()} />
   </article>,
   document.getElementById("app")
