@@ -2,7 +2,7 @@
   "name": "",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Max Bause",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "core-js": "^3.4.8",
