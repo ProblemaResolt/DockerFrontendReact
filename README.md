@@ -10,9 +10,14 @@ Windows の場合とMacの場合で異なります。
 
 ※こちらのGithub内ではDocker環境用となります。
 またDocker-Composeに環境を追加する事でバックエンドも使用できます。
-
+現在設定している環境。
  - OS Alpine Linux
  - Node.js インストール済
+
+Docker Compose　Reference
+
+Link
+[Docker Compose](https://docs.docker.jp/compose/toc.html)
 
 ## WSL2 を使用して環境構築に必要なもの
 - [ ] Windows 10の64bit版
